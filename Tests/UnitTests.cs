@@ -118,7 +118,7 @@ public class Power
 	[TestMethod]
 	public void Power_Valid_Schwarz()
 	{
-		Assert.AreEqual(1.1, Program.Power("1", "2"));
+		Assert.AreEqual(1.0, Program.Power("1", "2"));
 		Assert.AreEqual(9.0, Program.Power("3", "2"));
 		Assert.AreEqual(double.Pow(5.0, 7.0), Program.Power("5", "7"));
 	}
